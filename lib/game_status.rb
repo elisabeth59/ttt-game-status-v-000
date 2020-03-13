@@ -24,7 +24,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|combo| combo == "X" || combo == "O"}  
+  board.all?{|combo| combo == "X" || combo == "O"}
 end
 
 def draw?(board)
@@ -34,5 +34,4 @@ def draw?(board)
     board[combo[1]] == board[combo[2]] &&
     position_taken?(board, combo[0])
  end
-end 
-  
+end
