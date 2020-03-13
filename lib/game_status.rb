@@ -24,7 +24,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.each do |combo|
-  puts combo
- end
+  board.each {|combo| combo == "X" || combo == "O"}
 end
