@@ -25,6 +25,6 @@ end
 
 def full?(board)
   board.each do |combo|
-  puts {combo == "X" || combo == "O"}
+  puts combo 
  end
 end
