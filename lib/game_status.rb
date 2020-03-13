@@ -25,4 +25,6 @@ end
 
 def full?(board)
   board.each {|combo| combo == "X" || combo == "O"}
+  board.each do |combo|
+ end  
 end
