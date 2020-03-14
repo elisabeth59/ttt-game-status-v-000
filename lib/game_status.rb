@@ -36,5 +36,5 @@ def over?(board)
 end
 
 def winner(board)
-  board.include?{|combo| combo == "X" || combo == "O"}
+  board.each do {|combo| combo == "X" || combo == "O"}
 end
